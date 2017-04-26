@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dantist</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<label class="menuToggle1" for="menuCheck">≡ Menu</label>
+		<input id="menuCheck" type="checkbox">
+		<ul class="header__menu row">
+			<li class='header__item col-2'><a class='header__link' href="index.html">ГЛАВНАЯ</a></li>
+			<li class='header__item col-2'><a class='header__link' href="#content">СТОМАТОЛОГИЯ</a></li>
+			<li class='header__item col-1'><a class='header__link' href="#services">УСЛУГИ</a></li>
+			<li class='header__item col-1'><a class='header__link' href="#prices">ЦЕНЫ</a></li>
+			<li class='header__item col-2'><a class='header__link' href="#reviews">ОТЗЫВЫ</a></li>
+			<li class='header__item col-2'><a class='header__link' href="">СЕРТИФИКАТЫ</a></li>
+			<li class='header__item col-2'><a class='header__link' href="#contacts">КОНТАКТЫ</a></li>
+		</ul>
+	</div>
+	<div class="wrapper">
+		<div class="location row">
+			<h1 class="coordinates col-6">
+				<span class="coordinates__town">Стоматология в Уфе</span><br>
+				<span class="coordinates__address">ул. Карла Маркса 3</span>
+			</h1>
+			<div class="coordinates__callBack col-6">
+				<button class="coordinates__button">Обратный звонок</button><br>
+				<span class="coordinates__number">8 (495) 777 54 67</span>
+			</div>	
+		</div>
+		<div class="dentists row">
+			<img class="dentists__img col-12" src="img/dantists.png" alt="dantists">
+		</div>
+		<div class="content row"  id="services">
+			<div class="menuToggle"><span class="gamburger">≡</span> УСЛУГИ</div>
+			<ul class="content__services col-3">
+				<li class="content__list content__list_none">УСЛУГИ:</li>
+				<li class="content__list">Лечение зубов</li>
+				<li class="content__list">Парадонтология (лечение десен)</li>
+				<li class="content__list">
+				Гигиена зубов(чистка)</li>
+				<li class="content__list">
+				Детская стоматология</li>
+				<li class="content__list">
+				Несъемные протезы и
+				коронки</li>
+				<li class="content__list">Съемные протезы</li>
+				<li class="content__list">
+				Виниры и накладки</li>
+				<li class="content__list">
+				Зубные вкладки</li>
+				<li class="content__list">Хирургия</li>
+				<li class="content__list">
+				Имплантация зубов</li>
+				<li class="content__list">Отбеливание зубов</li>
+			</ul>
+			<div class="col-1"></div>
+			<div class="content__right col-8">
+				<div class="contentUp row">
+					<div class="content__photoDentist col-4">
+						<p class="content__bg"> </p>
+					</div>
+					<p class="content__quote col-7">"Несмотря на то, какой у вас вид пирсинга во рту, всегда можно занести какую-либо инфекцию, если процедура проводится не в идеально стерильных условиях. В моей практике были случаи, когда приходилось отрезать часть языка, так как была угроза заражения инфекцией всего организма. Но даже если пациенту повезло и его ничем не заразили, практически у каждого, у кого есть пирсинг на языке, щербатые передние зубы. Пожалуйста, не делайте пирсинг на языке".</p>
+				</div>
+				<div class="content__mainText" id="content">
+					<h2 class="content__caption">Все виды стоматологических услуг</h2>
+					<div class="content__text">
+						<p class="content__paragraph">Продуманный интерьер, лаунж-музыка, ароматерапия, приветливый чуткий персонал — всё направлено на то, чтобы снять Ваше беспокойство и подготовить к последующим процедурам. В уютном расслабляющем холле Вам предложат чай с мятой, журналы, кофе, капучино.</p>
+						<p class="content__paragraph">Отличное от других клиник название «Сан Марко», не напоминающее лишний раз о лечебном учереждении, приглашает к врачу свежим ароматом здоровой жизни.</p>
+						<p class="content__paragraph">Наши преимущества
+						Оснащенность кабинетов, мультидисциплинарное мастерство, высокий профессионализм специалистов, уровень цен - позволяют получить стоматологическую помощь в полном объеме, от гигиенической чистки зубов до имплантации, ортодонтии и протезирование с гарантией и ежегодным профилактическим осмотром.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="prices" id="prices">
+			<p class="prices__caption">Цены</p>
+			<div class="prices__wrap row">
+				<p class="prices__service col-6">Лечение зубов</p>
+				<p class='prices__price col-6'>3000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Парадонтология (лечение десен)</p>
+				<p class='prices__price col-6'>8000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Гигиена зубов(чистка)</p>
+				<p class='prices__price col-6'>2000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Детская стоматология</p>
+				<p class='prices__price col-6'>4000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Несъемные протезы и коронки</p>
+				<p class='prices__price col-6'>10000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Съемные протезы</p>
+				<p class='prices__price col-6'>8000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Виниры и накладки</p>
+				<p class='prices__price col-6'>15000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Зубные вкладки</p>
+				<p class='prices__price col-6'>10000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Хирургия</p>
+				<p class='prices__price col-6'>20000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Имплантация зубов</p>
+				<p class='prices__price col-6'>15000 p</p>
+			</div>
+			<div class="prices__wrap row">
+				<p class='prices__service col-6'>Отбеливание зубов</p>
+				<p class='prices__price col-6'>5000 p</p>
+			</div>
+		</div>
+
+		<div class="content__threeCircles row" id="reviews">
+			<div class="circles col-12">
+				<div class="circles__wrap col-4">
+					<div class="circles__wrapImg">
+						<p class="circles__img1"> </p>
+					</div>
+					<h3 class="circles__caption">Юшко Антонина</h3>
+					<p class="circles__text">Прошло уже больше месяца, как поставила импланты. Я только приготовилась нервничать, как все уже закончилось. Все замечательно! Никаких осложнений, отеков и синяков!</p>
+				</div>
+				<div class="circles__wrap col-4">
+					<div class="circles__wrapImg">
+						<p class="circles__img2"> </p>
+					</div>
+					<h3 class="circles__caption">Суханов Кирилл</h3>
+					<p class="circles__text">Сделали рентген и дальше все прошло быстро и безболезненно))) Большое спасибо))) Доволен)))</p>
+				</div>
+				<div class="circles__wrap col-4">
+					<div class="circles__wrapImg">
+						<p class="circles__img3"> </p>
+					</div>
+					<h3 class="circles__caption">Масовец Майя</h3>
+					<p class="circles__text">Хочу поблагодарить прекрасных врачей, за профессионализм,корректность, внимание.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer" id="contacts">
+		<div class="footer__wrap row">
+			<ul class="footer__menu col-4">
+				<li class='footer__item'><a class='footer__link' href="">ГЛАВНАЯ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">О СТОМАТОЛОГИИ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">УСЛУГИ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">ЦЕНЫ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">ОТЗЫВЫ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">СЕРТИФИКАТЫ</a></li>
+				<li class='footer__item'><a class='footer__link' href="">КОНТАКТЫ</a></li>
+			</ul>
+			<p class="callUs col-4">ОСТАЛИСЬ ВОПРОСЫ?<br>
+			ПОЗВОНИТЕ НАМ!<br>
+			8 (495) 777 54 67</p>
+			<p class="serviceList col-4">
+				Перечень услуг,
+	которые оказывает наша зубная клиника,
+	не оставляет сомнений:
+	мы поможем клиентам справиться
+	с любой стоматологической проблемой.
+			</p>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$('.menuToggle').on('click', function(){
+				$('.content__services').slideToggle(300, function(){
+					if($(this).css('display') === 'none'){
+						$(this).removeAttr('style');
+					}
+				});
+			});
+		});
+	</script>
+</body>
+</html>

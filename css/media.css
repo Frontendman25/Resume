@@ -1,0 +1,281 @@
+@keyframes menuDown{
+	from{
+		transform: translateY(-315px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 960px){
+	.header__link{
+	line-height: 80px;
+	font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 840px){
+	.header__link{
+	line-height: 70px;
+	font-size: .9em;
+	}
+	.coordinates__button{
+		padding: 4.3829787234% 5.3829787234%;
+	}
+}
+
+@media screen and (max-width: 769px){
+    [class*="col-"]{
+        width: 100%;
+    }
+	.header{
+		margin-bottom: 20px;
+		background: none;
+	}
+	.menuToggle1{
+		font-size: 1.4em;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 45px;
+		color: #fff;
+		display: block;
+		cursor: pointer;
+		background: #3e84c6;
+	}
+	.header__link{
+		background: #3e84c6;
+	}
+	.header__menu{
+		display: none;
+	}
+	#menuCheck:checked + .header__menu{
+		display: block;
+		position: absolute;
+		margin-bottom: 15px;
+		font-size: 1.3em;
+		animation-name: menuDown;
+    	animation-duration: .5s;
+	}
+	.content{
+		position: relative;
+		margin-bottom: 0px;
+	}
+	.content__services{
+		position: absolute;
+		left: 5%;
+		top: 40px;
+		margin: 0 auto;
+		width: 90%;
+		text-align: center;
+		float: none;
+		display: none;
+		z-index: 1;
+		border-radius: 0 0 10px 10px;
+	}
+	.menuToggle, .gamburger{
+		font-size: 1.4em;
+	}
+	.menuToggle{ 
+		display: block;
+		width: 90%;
+		margin-bottom: 20px;
+	}
+    label[for="menu__hide"]{
+        display: block;
+		padding: .8em;
+    }
+    #menu__hide:checked~ .header__item{
+        position: relative;
+        display: block;
+    }
+	.header__link{
+		line-height: 2em;
+	}
+    .menu-trigger{
+		background: #3e84c6;
+        width: 100%;
+		font-size: 1.4em;
+        text-align: center;
+    }
+	.location{
+		margin-top: 0;
+	}
+	.coordinates, .coordinates__callBack{
+		width: 100%;
+		text-align: center;
+	}
+	.coordinates{
+		margin-bottom: 20px;
+	}
+	.coordinates__button{
+		padding: 3%;	
+	}
+	.coordinates__number{
+		font-size: 1.35em;
+	}
+	.content__list_none{
+		display: none;
+	}
+	.content__link{
+		display: block;
+		padding: .75em 0;
+		font-size: 1.4em;
+		color: rgb(255, 255, 255);
+	}
+	.content__right{
+		margin: 0 auto;
+		width: 90%;
+		float: none;
+	}
+	.content__photoDentist{
+		width: 35%	
+	}
+	.content__quote{
+		width: 60%;
+		line-height: 1.3;
+		letter-spacing: .1px;
+	}
+	.circles{
+		margin: 0 auto;
+		width: 90%;
+		float: none;
+	}
+	.circles__wrap{
+		margin: 0 auto 30px;
+		width: 80%;
+		padding: 0;
+		float: none;
+	}
+	.circles__img1, .circles__img2, .circles__img3{
+		margin-bottom: 5px;
+		max-width: 1%;
+		height: auto;
+		padding: 25%;
+	}
+	.circles__caption{
+		margin-bottom: 5px;
+		font-size: 1.3em;
+	}
+	.circles__text{
+		font-size: 1em;
+	}
+	.footer__menu{
+		width: 50%;
+		padding: 0;
+	}
+	.callUs{
+		width: 50%;
+		padding: 0;
+	}
+	.serviceList{
+		padding: 20px 0 0 0;
+	}
+	.prices{
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.prices__service{
+		width: 75%;
+	}
+	.prices__price{
+		width: 25%;
+	}
+}
+    
+@media screen and (max-width: 480px){
+    [class*="col-"]{
+        width: 100%;
+    }
+	.header{
+		margin-bottom: 7px;
+	}
+	.location{
+		margin-bottom: 7px;
+	}
+	.coordinates{
+		margin-bottom: 7px;
+	}
+	.coordinates__button{
+		margin-bottom: 5px
+	}
+	.coordinates__number{
+		font-size: 1.2em;
+	}
+	.dentists{
+		margin-bottom: 0px;
+	}
+	.dentists__img{
+		padding: 0;
+	}
+	.content__mainText{
+		margin-top: 15px;
+	}
+	.content__paragraph{
+		margin: 8px 0;
+	}
+	.menuToggle{
+		width: 95%;
+	}
+	.content{
+		padding: 15px;
+	}
+	.content__services{
+		position: absolute;
+		left: 2.5%;
+		top: 40px;
+		margin: 0 auto;
+		width: 95%;
+		font-size: .8em;
+		line-height: 1em;
+	}
+	.content__photoDentist{
+		margin: 0 auto;
+		float: none;
+		width: 60%;
+		margin-bottom: 20px
+	}
+	.prices__service{
+		width: 75%;
+		font-size: 1em;
+	}
+	.prices__price{
+		width: 25%;
+		font-size: 1em;
+	}
+	.footer__menu{
+		display: block;
+		width: 50%;
+	}
+	.footerToggle{
+		width: 50%;
+		float: left;
+		margin-bottom: 5px;
+		display: none;
+		color: #d2d2d2;
+		font-weight: bold;
+		text-align: center;
+	}
+	#footerCheck:checked + .footer__menu{
+		display: block;
+		text-align: center;
+	}
+	.callUs{
+		width: 50%;
+		margin-bottom: 5px;
+		font-size: 1em;
+		text-align: center;
+		line-height: 1.7;
+	}
+	.serviceList{
+		display: none;
+	}
+}
+@media screen and (max-width: 375px){
+	.prices__service{
+		font-size: .9em;
+	}
+	.prices__price{
+		font-size: .9em;
+	}
+}
